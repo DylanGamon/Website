@@ -1,0 +1,338 @@
+*,
+*::after,
+*::before {
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    background-color: #1f1f1f;
+    scroll-behavior: smooth;
+}
+
+h1{
+    font-family:Verdana,Tahoma, sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+a {
+    color: black;
+}
+
+p {
+    color: lightgray
+}
+
+.title{
+    color:#123524;
+    text-shadow: 1px 1px grey;
+    text-align: center;
+    padding: 50px;
+    padding-top: 95px;
+    border-top: 1px black solid;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    position: fixed;
+    background-color:whitesmoke;
+}
+
+.header-logo{
+    height: 36px;
+    margin-left: 24px;
+    transition: all 2.0s;
+}
+
+.header-logo:hover{
+    transform:rotate(360deg);
+    transition: all 2.0s;
+    -ms-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+}
+
+/*    NAVBAR    */
+.navbar {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    position: fixed;
+    background-color:whitesmoke;
+}
+
+.header-logo{
+    height: 36px;
+    margin-left: 24px;
+    border: 4px solid ;
+    border-radius: 50%;
+    box-shadow: 1px 1px;
+    transition: all 2.0s;
+}
+
+.header-logo:hover{
+    transform:rotate(360deg);
+    transition: all 2.0s;
+    -ms-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+}
+
+.nav-links {
+    display:flex;
+    align-items: center;
+    text-align: center;
+    list-style: none;
+    margin-left:auto;
+    margin-right: 12px;
+}
+
+.nav-links a{
+    text-decoration: none;
+    display:block;
+    font-size: 20px;
+    padding: 16px;
+}
+
+.nav-links a:hover{
+    background-color:#123524;
+    cursor: pointer;
+    color:whitesmoke;
+    text-shadow: 2px 2px 1px black;
+}
+
+
+
+/*    Title   */
+.title-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: soild black 1px;
+    background-image:url(images/background.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.media-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1000px;
+    margin: 128px 72px 72px;
+    gap: 24px;
+    border: 3px solid #123524;
+    box-shadow: 2px 2px 20px 2px;
+    background: #1f1f1f;
+}
+
+.textbox{
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 auto;
+    align-items: flex-start;
+    gap: 20px;
+    padding-left: 32px;
+    background-color: #123524;
+}
+
+
+.textbox h1{
+    color: whitesmoke;
+    text-shadow: 2px 2px 3px;
+}
+
+.main-img {
+    object-fit: cover;
+    flex: 1 1 auto;
+    max-width: 300px;
+    border: 15px soild gray;
+    border-radius: 50%;
+    box-shadow: 2px 2px 3px;
+}
+
+
+/*   Team Info   */
+.worker {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    gap: 8px;
+    padding: 24px;
+    color: whitesmoke;
+    text-shadow: 2px 2px 1px black;
+}
+
+.worker-container {
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    padding: 0px 24px 96px 24px;
+}
+
+.worker-icon {
+    width: 200px;
+    height: 200px;
+    border: 12px solid #123524;
+    border-radius: 32px;
+    box-shadow: 2px 2px 3px black;
+    object-fit: cover;
+}
+
+.worker-text {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    flex-wrap: wrap;
+    max-width: 200px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+/*   Quote   */
+.quote-section {
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 128px 128px 96px;
+    background-image: linear-gradient(60deg,#123524, #777b7e);
+    border-bottom: 1px solid black;
+    font-size: 24px;
+    line-height: 150%;
+    font-style: italic;
+}
+
+.quote-section p {
+    text-align: end;
+    font-style: normal;
+    font-weight: 600;
+    color: whitesmoke;
+}
+
+
+
+/*   Contact Info   */
+.contact-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    background-image: url(images/background.jpg);
+    background-position: center;
+    background-size: cover;
+    font-weight: bold;
+    text-shadow: 1px 1px black;
+}
+
+.contact-info-container {
+    margin-bottom: 36px;
+}
+
+.contact-info-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 24px;
+    font-size: 20px;
+}
+
+.contact-icon {
+    height: 30px;
+    width: 30px;
+    padding-right: 5px;
+}
+
+.contact-icon-ld {
+    height: 30px;
+    width: 30px;
+    padding-right: 5px;
+    padding-bottom: 9x;
+}
+
+.contact-section a {
+    color: whitesmoke;
+    text-decoration: none;
+    font-weight: bolder;
+    text-shadow: 2px 2px black;
+
+}
+
+.contact-section a:hover {
+    color: bisque;
+    text-decoration: none;
+    font-weight: bolder;
+    text-shadow: 2px 2px black;
+}
+
+
+/*   Email   */
+.signup-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid black;
+    border-top: 2px solid black;
+}
+
+.signup-box {
+    display: flex;
+    align-items: center;
+    background-color: grey;
+    border: 12px solid #123524;
+    box-shadow: 2px 2px 3px black;
+    margin: 128px 48px;
+    padding: 32 px 48px;
+    max-width: 1100px;
+}
+
+.email-text h2 {
+    color: whitesmoke;
+    text-shadow: black 1px 1px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-bottom: 8px;
+}
+
+.email-text p {
+    padding-right: 24px;
+}
+
+.email-btn {
+    flex-shrink: 0;
+    height: 36px;
+    width: 120px;
+    padding: 4px 24px;
+    padding-right: 20px;
+    margin: 24px auto;
+    background-color: #1f1f1f;
+    border-radius: 4px;
+    border: 3px solid #123524;
+    box-shadow: 1px 2px black;
+    font-weight: 400;
+    color: whitesmoke;
+}
+
+.email-btn:hover {
+    font-weight: 800;
+    background-color:lightgrey;
+    border-color: #123524;
+    cursor: pointer;
+}
+
+
+/*   Footer */
+.footer p {
+    padding: 24px;
+    text-align: center;
+    color: black;
+    background-color: white;
+    color: white;
+}
+
+.footer br {
+    background-color: white;
+}
+
