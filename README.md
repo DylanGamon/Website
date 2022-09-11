@@ -1,2 +1,2 @@
 # Website
-My very 1st website project!
+Landing Page Project
